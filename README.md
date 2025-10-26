@@ -3,6 +3,9 @@
 A responsive **Backstage Talks** magazine website clone built with **React**, **Vite**, and **Tailwind CSS**.  
 This project replicates the clean, colorful design of [Backstage Talks](https://backstagetalks.com/#issue1) — a magazine about design and business — using modern front-end tools.
 
+![Backstage Talks Clone Thumbnail](public/thumbnail.png)
+
+
 ---
 
 ## 🌐 Live Demo
@@ -26,8 +29,8 @@ Each color below represents the **cover color of a Backstage Talks issue**.
 
 | Issue | Color | Hex Code |
 |:------|:------|:----------|
-| Issue 1 | Teal | `#00c1b5` |
-| Issue 2 | Orange | `#ff651a` |
-| Issue 3 | Yellow | `#ffbe00` |
-| Issue 4 | Blue | `#1d3fbb` |
-| Issue 5 | Red | `#e30512` |
+| Issue  | Teal | `#00c1b5` |
+| Issue  | Orange | `#ff651a` |
+| Issue  | Yellow | `#ffbe00` |
+| Issue  | Blue | `#1d3fbb` |
+| Issue  | Red | `#e30512` |
