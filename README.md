@@ -1,16 +1,33 @@
-# React + Vite
+# 🎙️ Backstage Talks Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Backstage Talks** magazine website clone built with **React**, **Vite**, and **Tailwind CSS**.  
+This project replicates the clean, colorful design of [Backstage Talks](https://backstagetalks.com/#issue1) — a magazine about design and business — using modern front-end tools.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+👉 [Visit the official Backstage Talks website](https://backstagetalks.com/#issue1)
 
-## React Compiler
+*(You can replace this with your own live demo link once deployed!)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖥️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React** — Component-based UI library  
+- ⚡ **Vite** — Fast build tool for modern web apps  
+- 🎨 **Tailwind CSS** — Utility-first CSS framework for styling  
+
+---
+
+## 🎨 Color Palette (Book Covers)
+
+Each color below represents the **cover color of a Backstage Talks issue**.
+
+| Issue | Color | Hex Code |
+|:------|:------|:----------|
+| Issue 1 | Teal | `#00c1b5` |
+| Issue 2 | Orange | `#ff651a` |
+| Issue 3 | Yellow | `#ffbe00` |
+| Issue 4 | Blue | `#1d3fbb` |
+| Issue 5 | Red | `#e30512` |
