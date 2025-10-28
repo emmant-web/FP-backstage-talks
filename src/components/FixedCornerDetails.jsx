@@ -3,14 +3,17 @@ import logo from "../assets/images/backstage-talks-logo.png";
 function FixedCornerDetails() {
   return (
     <>
-      <div className="p-4 h-screen flex justify-between">
+      <div className="fixed inset-0 z-10 p-6 flex justify-between">
 
 {/* FIRST SECTION */}
         <div className="flex flex-col justify-between">
+            {/* upper left - backstage logo */}
           <div>
             <img src={logo} alt="logo" className="w-2xs h-auto" />
           </div>
-          <div className="max-w-xs">
+
+            {/* bottom left - backstage description and privacy policy */}
+          <div className="max-w-xs leading-relaxed">
             <p>
               Backstage Talks is a magazine of casual, but in depth dialogues on
               design and business. Our decisions shape and influence this
@@ -18,29 +21,34 @@ function FixedCornerDetails() {
               talk.
             </p>
             <span>
-              © 2025
-              <a href="">Published by Büro Milk</a>
+              © 2025{" "}
+              <a href="#">Published by Büro Milk</a>
             </span>
-            <a href="">Privacy Policy</a>
+            <a href="
+            #" className="underline">Privacy Policy</a>
           </div>
         </div>
 
         {/* SECOND SECTION */}
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between text-right">
+            {/* upper right email */}
           <div>
             <a href="info@backstagetalks.com" className="font-bold hover:underline">info@backstagetalks.com</a>
           </div>
 
+            {/* bottom right anchors - don't show this in tablet and mobile view */}
           <div className="flex flex-col text-right">
-            <a href="#section8" className="hover:underline">Issue #8</a>
-            <a href="#section7" className="hover:underline">Issue #7</a>
-            <a href="#section6" className="hover:underline">Issue #6</a>
-            <a href="#section5" className="hover:underline">Issue #5</a>
-            <a href="#section4" className="hover:underline">Issue #4</a>
-            <a href="#section3" className="hover:underline">Issue #3</a>
-            <a href="#section2" className="hover:underline">Issue #2</a>
-            <a href="#section1" className="hover:underline">Issue #1</a>
+            {[8, 7, 6, 5, 4, 3, 2, 1].map((num) => (
+            <a
+              key={num}
+              href={`#section${num}`}
+              className="hover:underline font-base"
+            >
+              Issue #{num}
+            </a>
+          ))}
           </div>
+
         </div>
       </div>
     </>
